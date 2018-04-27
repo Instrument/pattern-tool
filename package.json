@@ -2,7 +2,7 @@
   "name": "pattern-tool",
   "version": "1.0.0",
   "description": "A tool for adding patterns to a pattern lab project",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
