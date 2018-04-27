@@ -1,0 +1,26 @@
+{
+  "name": "pattern-tool",
+  "version": "1.0.0",
+  "description": "A tool for adding patterns to a pattern lab project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Instrument/pattern-tool.git"
+  },
+  "author": "Thomas Bruketta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Instrument/pattern-tool/issues"
+  },
+  "homepage": "https://github.com/Instrument/pattern-tool#readme",
+  "bin": {
+    "pattern": "./cli.js"
+  },
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "yargs": "^11.0.0"
+  }
+}
