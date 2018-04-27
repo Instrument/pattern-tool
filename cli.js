@@ -11,7 +11,6 @@ require('yargs')
         demandOption: true
       })
     }, function (argv) {
-      // console.log('hi')
       fs.writeFileSync(`${process.cwd()}/${argv.patternName}.md`)
       fs.writeFileSync(`${process.cwd()}/${argv.patternName}.mustache`)
       fs.writeFileSync(`${process.cwd()}/${argv.patternName}.scss`)
@@ -20,20 +19,3 @@ require('yargs')
     .demandOption(['patternName',])
     .help()
     .argv
-
-// require('yargs')
-//     .usage('$0 <cmd> [args]')
-//     .command('hello [name]', 'welcome ter yargs!', (yargs) => {
-//       yargs.positional('name', {
-//         type: 'string',
-//         default: 'Cambi',
-//         describe: 'the name to say hello to'
-//       })
-//     }, function (argv) {
-//       console.log('hello', argv.name, 'welcome to yargs!')
-//     })
-//     .help()
-//     .argv
-
-
-//console.log(`Hi here are the args: ${process.cwd()}`)

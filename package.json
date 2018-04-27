@@ -1,6 +1,6 @@
 {
   "name": "pattern-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool for adding patterns to a pattern lab project",
   "main": "cli.js",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "file-system": "^2.2.2",
-    "yargs": "^11.0.0"
+    "yargs": "^11.1.0"
   }
 }
